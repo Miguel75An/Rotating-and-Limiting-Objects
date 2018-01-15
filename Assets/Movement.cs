@@ -14,13 +14,10 @@ public class Movement : MonoBehaviour {
     void Update()
     {
         PlayerController();
-
     }
 
     void PlayerController()
     {
-
-
         if (Input.GetKey(KeyCode.D))
         {
             transform.Translate(movement * mspeed * Time.deltaTime);

@@ -287,6 +287,7 @@
   <ItemGroup>
     <Compile Include="Assets\Example.cs" />
     <Compile Include="Assets\Example2.cs" />
+    <Compile Include="Assets\Example3.cs" />
     <Compile Include="Assets\LeanTouch\Examples\Scripts\LeanAddForce.cs" />
     <Compile Include="Assets\LeanTouch\Examples\Scripts\LeanCameraMove.cs" />
     <Compile Include="Assets\LeanTouch\Examples\Scripts\LeanCameraMoveSmooth.cs" />
