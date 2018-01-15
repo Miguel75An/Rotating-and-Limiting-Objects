@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2017
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rotating At Fixed Point", "Rotating At Fixed Point.csproj", "{46D73239-36AE-00D8-D92A-813E274021F1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rotating At Fixed Point.Editor", "Rotating At Fixed Point.Editor.csproj", "{E343894A-3C54-F185-3ACE-B98E01548717}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{46D73239-36AE-00D8-D92A-813E274021F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46D73239-36AE-00D8-D92A-813E274021F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46D73239-36AE-00D8-D92A-813E274021F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46D73239-36AE-00D8-D92A-813E274021F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E343894A-3C54-F185-3ACE-B98E01548717}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E343894A-3C54-F185-3ACE-B98E01548717}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E343894A-3C54-F185-3ACE-B98E01548717}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E343894A-3C54-F185-3ACE-B98E01548717}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
