@@ -291,6 +291,7 @@
     <Compile Include="Assets\Example4.cs" />
     <Compile Include="Assets\Example5.cs" />
     <Compile Include="Assets\Example6.cs" />
+    <Compile Include="Assets\Example7.cs" />
     <Compile Include="Assets\LeanTouch\Examples\Scripts\LeanAddForce.cs" />
     <Compile Include="Assets\LeanTouch\Examples\Scripts\LeanCameraMove.cs" />
     <Compile Include="Assets\LeanTouch\Examples\Scripts\LeanCameraMoveSmooth.cs" />

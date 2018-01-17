@@ -14,13 +14,15 @@ public class Example6 : MonoBehaviour
 
     void Start()
     {
-        // Requires the block to be directly to the right of the center
-        //   with rotation set correctly on start
         v = (transform.position - center.position);
+        
     }
 
     void Update()
     {
+        float distance = Vector3.Distance(transform.position, center.position);
+        Debug.Log("distance = " + distance);
+
         Vector3 previous_position = transform.position;
         Vector3 pos = transform.position;   //Get pos to be a Vector3 var holding all x,y,z components
 
@@ -35,7 +37,7 @@ public class Example6 : MonoBehaviour
 
         //Calculate magniture using new postion 'pos'
         Vector3 new_distance = pos - center.position;
-        float distance = Vector3.Distance(pos, center.position);
+        
 
         //Magnitude is the distance between the two circle centers
 
@@ -56,18 +58,17 @@ public class Example6 : MonoBehaviour
         }
 
         //Second attemp, calculating distances
-        Debug.Log("new_distance = " + new_distance.magnitude);
-        Debug.Log("distance = " + distance);
-
-
+        //Debug.Log("new_distance = " + new_distance.magnitude); // so this distance is wrong?
+        
         //print(new_distance.magnitude);
         //print(distance);
-        if (new_distance.magnitude < 4) //in other words if it touches any point of distance == 4 then clamp it to that point, or update it to such point
+        if (distance < 4) //in other words if it touches any point of distance == 4 then clamp it to that point, or update it to such point
         {
             print("RAD4");
             //Place small circle just outside the big circle
             //But how can we clamp that?
-            transform.position = Vector3.MoveTowards(transform.position, previous_position, mspeed * Time.deltaTime);
+            transform.position = previous_position;
+            //transform.position = Vector3.MoveTowards(transform.position, previous_position, mspeed * Time.deltaTime);
         }
         else if (new_distance.magnitude > 6)
         {

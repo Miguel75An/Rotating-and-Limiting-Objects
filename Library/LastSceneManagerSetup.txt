@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/ChangedTransformWithClamps.unity
+- path: Assets/CollidersApproach.unity
   isLoaded: 1
   isActive: 1
