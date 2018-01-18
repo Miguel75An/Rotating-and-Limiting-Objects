@@ -285,13 +285,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Example.cs" />
-    <Compile Include="Assets\Example2.cs" />
-    <Compile Include="Assets\Example3.cs" />
-    <Compile Include="Assets\Example4.cs" />
-    <Compile Include="Assets\Example5.cs" />
-    <Compile Include="Assets\Example6.cs" />
-    <Compile Include="Assets\Example7.cs" />
     <Compile Include="Assets\LeanTouch\Examples\Scripts\LeanAddForce.cs" />
     <Compile Include="Assets\LeanTouch\Examples\Scripts\LeanCameraMove.cs" />
     <Compile Include="Assets\LeanTouch\Examples\Scripts\LeanCameraMoveSmooth.cs" />
@@ -328,7 +321,16 @@
     <Compile Include="Assets\LeanTouch\Scripts\LeanSelectable.cs" />
     <Compile Include="Assets\LeanTouch\Scripts\LeanSnapshot.cs" />
     <Compile Include="Assets\LeanTouch\Scripts\LeanTouch.cs" />
-    <Compile Include="Assets\Movement.cs" />
+    <Compile Include="Assets\Scripts\Example.cs" />
+    <Compile Include="Assets\Scripts\Example2.cs" />
+    <Compile Include="Assets\Scripts\Example3.cs" />
+    <Compile Include="Assets\Scripts\Example4.cs" />
+    <Compile Include="Assets\Scripts\Example5.cs" />
+    <Compile Include="Assets\Scripts\Example6.cs" />
+    <Compile Include="Assets\Scripts\Example7.cs" />
+    <Compile Include="Assets\Scripts\Example8.cs" />
+    <Compile Include="Assets\Scripts\Movement.cs" />
+    <Compile Include="Assets\Scripts\MovingDonut.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\LeanTouch\Examples\Fonts\OFL.txt" />

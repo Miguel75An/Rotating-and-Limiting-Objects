@@ -8,10 +8,11 @@ public class Example7 : MonoBehaviour
     public Transform center;
     public float spacing = 5f;
     public float mspeed = 10f;
+    private Vector3 original_positon;
 
     void Start()
     {
-
+        original_positon = transform.position;
     }
 
     void Update()
@@ -33,8 +34,19 @@ public class Example7 : MonoBehaviour
 
         transform.position = Vector3.MoveTowards(transform.position, pos, mspeed * Time.deltaTime);
 
-       
+       if(Input.GetKeyUp(KeyCode.W) || Input.GetKeyUp(KeyCode.S) || 
+          Input.GetKeyUp(KeyCode.A) || Input.GetKeyUp(KeyCode.D))
+        {
+            transform.position = original_positon;
+        }
+    }
 
+    private void LateUpdate()
+    {
+        //Return to original position after movement
+        //transform.position = original_positon; DOESNT SEEM TO WORK
+
+        //There is a method called OnMouseUp() which might help
     }
 
 }
